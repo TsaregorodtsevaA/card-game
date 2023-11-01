@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #187BFF;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.timer {
+  position: absolute;
+  right: 10%;
+  top: 45px;
+  font-size: 30px;
+}
+
+.h1 {
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #f7f7cf;
+  text-align: center;
+  color: #04036b;
+  border-radius: 10px;
+  border: 3px solid #04036b;
+  box-shadow: 5px 5px 10px #04036b;
+  font-size: 70px;
+}
+
+.cards-list {
+  width: 100%;
+  font-size: 50px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-list__item {
+  margin: 10px;
+  outline: 1px solid whitesmoke;
+  width: calc(100% / 4 - 20px * 3);
+  padding: 10px;
+  color: #f7f7cf;
+  background-color: #f7f7cf;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px #04036b;
+  border-radius: 10px;
+
+}
+
+.opened {
+  color: #04036b;
+  background-color: #20e335;
+}
+
+.congradulation {
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 70vh;
+  color: #04036b;
+}
+
+.congr-img {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 5px 15px;
+  font-size: 20px;
+  background-color: #f7f7cf;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+}
+
+.form__select {
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 15px;
+  text-align: center;
+}

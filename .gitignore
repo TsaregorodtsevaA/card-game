@@ -1,0 +1,10 @@
+.idea
+node_modules
+
+/dist
+.vscode/
+/.editorconfig
+/.eslintrc.js
+/.gitlab-ci.yml
+/package-lock.json
+/package.json
